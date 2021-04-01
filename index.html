@@ -3,9 +3,33 @@
  <head>
 	<meta charset="utf-8">
     <title> Home </title>
+    <style type="text/css">
+       h1 {
+       	   font-size: 46px 
+       }	
+       p, ul {
+           font-size: 20px        	
+       }
+       .table {
+       	       
+       	       text-align: center; 
+       	       width: 50%; 
+       	       font-size: 20px;
+       }
+       .table-red {
+       	           border: 1px solid #ff2b2b; 
+
+
+       }
+       .table-green {
+       	             border: 1px solid #009900; 
+
+
+       }
+    </style>
  </head>
  <body> 
-    	<h1 style="color: 	#DB7093; background: #D8BFD8"> 
+    	<h1 style="color: 	#DB7093; background: #ffb3cc"> 
     		<i> Home page </i>
         </h1>
     	<!-- <h2> 2 </h2>  -->
@@ -14,10 +38,22 @@
     	<!-- <h5> 5 </h5> -->
     	<!-- <h6> 6 </h6> -->
     	<p>
-    		<strong>Lorem ipsum</strong>
-    		<small>Lorem ipsum</small>
-    		<span>Lorem ipsum</span>
-    	</p>
+    		<small>Шумит ветер в полночь и несет листы… Так и жизнь в быстротечном времени срывает с души нашей восклицания, вздохи, полумысли, получувства, которые, будучи звуковыми обрывками, имеют ту значительность, что «сошли» прямо с души, без переработки, без цели, без преднамеренья, - без всего постороннего…
+
+            Просто, - душа живет… «то есть «жила», дохнула»… С давнего времени мне эти «нечаянные восклицания» почему-то нравились. Собственно, они текут в нас непрерывно, но их не успеваешь (нет бумаги под рукой) заносить, - и они умирают. Потом ни за что не припомнить. Однако кое-что я успевал заносить на бумагу. Записанное все накапливалось. И вот я решил эти опавшие листы собрать?
+
+</small>
+</p>
+    		<p class="layout"> 
+    			<ul class="layout-list"></ul>
+    			<ul class="layout-list-green"></ul>
+    			<small>Вот стоит березка на береговом скосе речки Покши. В половодье ее чуть ли не до вершин накрывает студеная вода, острые ломаные льдины жестко ударяют о ствол, того и гляди срежут, столкнут или поранят. Она держится. Все перетерпев, вовремя украшается: и зеленой листвой, и сережками; и белизной коры приглядиста. Летом в ее тени, откинутой на реку, нежатся щурята, любят подремать окуни.
+
+</small>
+    		</p>
+    		<p> 
+    			<span>Несовместимость может возникнуть не только при употреблении местоимений в референтной функции; бывает, что целиком высказывания по смыслу не могут контактировать друг с другом. Необходимо их разделение, пауза.</span>
+    	    </p>
     	<p>
     		<ul>
     			<li> element 1</li>
@@ -46,8 +82,8 @@
     	</p>
     						
     	<p>  <hr>
-    		<table border="2" style="border: 1px solid #00bdff; text-align: center; width: 50%; font-size: 20px" class="table">
-    		  <thead style="background: #ffaea1">
+    		<table border="2" class="table table-red">
+    		  <thead style="color: 	#4f0c06; background: #f54949">
     		  	<tr>
     		  		<th>#</th>
     		  		<th>Name</th>
@@ -77,8 +113,8 @@
     		</table>
 
     		<p>
-    			<table border="2" style="border: 1px solid #00bdff; text-align: center; width: 50%; font-size: 20px">
-    			<thead style="background: #ffaea1">
+    			<table border="2" class="table table-green">
+    			<thead style="color: 	#00540b; background: #78fa89">
     				<tr>
     				<th rowspan="2"> Year</th>
     				<th colspan="4"> Month</th>
@@ -92,17 +128,21 @@
     			</thead>
     				<tbody>
     					<tr>
-    						<td>2020</td>
+    						<td >2020</td>
     						<td>1</td>
     						<td>2</td>
     						<td>3</td>
     						<td>4</td>
 
                         </tr>
+                        
     				</tbody>
     			
     		    </table>
     		</p>
+        </p>
+        <p>
+        	
         </p>
   </body>
 
