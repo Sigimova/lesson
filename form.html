@@ -2,19 +2,55 @@
 <html>
 <head>
 	<title>Формы HTML</title>
+	<style type="text/css">
+		* {
+			padding: 0;
+
+		}
+		#search {
+		}
+		.container { 
+			width: 200px;
+			background-color: #d8d8d8;
+            margin: 0 auto; padding: 20px
+
+		}
+         form input {
+         	width: 100%;
+         }
+         
+		.box {
+			border: 2px solid #ff0000; 
+			padding: 15px; 
+			margin: 50px
+		}
+		
+	</style>
 </head>
 <body>
+      <div class="container">
 
-  <form method="GET">
-  	<p>
-  		<input type="text" name="query">
-  	</p>
+          	<form method="GET" id="search">
+  	            <p>
+  		          <input type="text" name="query">
+  	            </p>
 
-	<p> 
-		<input type="text" name="a">
-	</p>
-	<button type="Submit1"> Submit1 </button>
-  </form>
+	            <p> 
+		          <input type="text" name="a">
+	            </p>
+	               <button type="Submit1"> Submit1 </button>
+             </form>
+
+      </div>
+
+      <p class="box">
+      	Шумит ветер в полночь и несет листы… Так и жизнь в быстротечном времени срывает с души нашей восклицания, вздохи, полумысли, получувства, которые, будучи звуковыми обрывками, имеют ту значительность, что «сошли» прямо с души, без переработки, без цели, без преднамеренья, - без всего постороннего…
+      </p>
+
+      <p class="box">
+      	Шумит ветер в полночь и несет листы… Так и жизнь в быстротечном времени срывает с души нашей восклицания, вздохи, полумысли, получувства, которые, будучи звуковыми обрывками, имеют ту значительность, что «сошли» прямо с души, без переработки, без цели, без преднамеренья, - без всего постороннего…
+      </p>
+  
 
 </body>
 </html>
