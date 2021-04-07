@@ -5,25 +5,24 @@
 	<style type="text/css">
 		* {
 			padding: 0;
-
-		}
+		  }
 		#search {
-		}
+		  }
 		.container { 
 			width: 200px;
 			background-color: #d8d8d8;
             margin: 0 auto; padding: 20px
-
-		}
+		  }
+		  
          form input {
          	width: 100%;
-         }
+          }
          
 		.box {
 			border: 2px solid #ff0000; 
 			padding: 15px; 
 			margin: 50px
-		}
+		  }
 		
 	</style>
 </head>
@@ -32,16 +31,38 @@
 
           	<form method="GET" id="search">
   	            <p>
-  		          <input type="text" name="query">
+  	            	<label for="name"> ФИО </label>
+  		          <input type="text" name="query" id="name" placeholder="ФИО">
   	            </p>
 
 	            <p> 
-		          <input type="text" name="a">
+	            	<label for="phone"> Телефон </label>
+		          <input type="tel" name="phone" id="phone" placeholder="Телефон">
 	            </p>
+	 <div> 
+<p>
+	 	<label for="course">Klass</label> </p>
+	<p> <select name="course">
+      	<option value="1">1</option>
+      	<option value="2">2</option>
+      	<option value="3">3</option>
+      	<option value="4">4</option>
+      	<option value="5">5</option>
+     </select>
+  </p>
+     </div>
+	            <p> 
+	            	<label for="О себе"> О себе </label>
+	            	<textarea rows="10" cols="25" id="О себе" placeholder="О себе">
+                    </textarea>
+	            </p>
+	            	               
 	               <button type="Submit1"> Submit1 </button>
+	               
              </form>
 
       </div>
+      
 
       <p class="box">
       	Шумит ветер в полночь и несет листы… Так и жизнь в быстротечном времени срывает с души нашей восклицания, вздохи, полумысли, получувства, которые, будучи звуковыми обрывками, имеют ту значительность, что «сошли» прямо с души, без переработки, без цели, без преднамеренья, - без всего постороннего…
